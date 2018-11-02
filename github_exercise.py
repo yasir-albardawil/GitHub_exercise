@@ -6,14 +6,12 @@ class Udacian:
         self.nanodegree = nanodegree
         self.status = status
 
-    def printInfo(self):
         print('Name: ' + self.name)
         print('City: ' + self.city)
         print('Enrollment: ' + self.enrollment)
         print('Nanodegree: ' + self.nanodegree)
         print('Status: ' + self.status)
+        
+Udacian('name', 'city', 'enrollment', 'nanodegree', 'status')
 
-
-test = Udacian('name', 'city', 'enrollment', 'nanodegree', 'status')
-test.printInfo()
 
